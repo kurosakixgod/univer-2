@@ -1,0 +1,117 @@
+@import "./start.css";
+@import "./about.css";
+@import "./footer.css";
+@import "./media.css";
+@import "./blog.css";
+@import "./gallery.css";
+@import "./new.css";
+@import "./newsletter.css";
+@import "./offer.css";
+@import "./overlay.css";
+@import "./header.css";
+@import "./popular.css";
+
+:root {
+	--font-family: "Nunito Sans", sans-serif;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+.swiper,
+.swiper-container {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	overflow: hidden;
+	list-style: none;
+	padding: 0;
+	z-index: 1;
+}
+
+.choices__placeholder {
+	opacity: 0.5;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 0 10px;
+	max-width: 1197px;
+}
+
+.btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid #1a3e3e;
+	border-radius: 4px;
+	padding: 0;
+	font-family: var(--font-family);
+	font-weight: 600;
+	font-size: 16px;
+	color: #fdfdfd;
+	background: #1a3e3e;
+	transition: all 0.3s;
+	cursor: pointer;
+}
+
+.btn:hover {
+	color: #1a3e3e;
+	background: #fdfdfd;
+}
+
+.subtitle {
+	margin: 0 0 8px;
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 20px;
+	color: #f2be22;
+}
+
+.title {
+	margin: 0 0 40px;
+	font-family: var(--font-family);
+	font-weight: 800;
+	font-size: 32px;
+	line-height: 120%;
+	color: #18121e;
+}
+
+.dis-scroll {
+	position: fixed;
+	left: 0;
+	top: 0;
+	overflow: hidden;
+	width: 100%;
+	height: 100vh;
+}
+
+.choices {
+	margin-bottom: unset;
+}
+
+.choices__inner {
+	border: 1px solid #e1e3e4;
+	border-radius: 8px;
+	padding: 9px 16px;
+	height: 52px;
+	font-family: var(--font-family);
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 150%;
+	color: #fdfdfd;
+	background-color: unset;
+}
+
+.fancybox__container {
+	--fancybox-bg: rgb(26, 62, 62, 0.98);
+}

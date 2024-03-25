@@ -1,0 +1,63 @@
+.overlay {
+	position: absolute;
+	left: 0;
+	top: 80%;
+	display: flex;
+	flex-direction: column;
+	border-radius: 32px;
+	padding: 30px 20px 20px;
+	height: 100%;
+	box-sizing: border-box;
+	background: rgba(255, 255, 255, 0.2);
+	transition: all 2s ease-in-out;
+	backdrop-filter: blur(6px);
+}
+
+.overlay__info {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 38px;
+}
+
+.overlay__title {
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 14px;
+	color: #fdfdfd;
+}
+
+.overlay__name {
+	display: block;
+	font-family: var(--font-family);
+	font-weight: 700;
+	font-size: 24px;
+	color: #fdfdfd;
+}
+
+.overlay__price {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 4px;
+	width: 86px;
+	height: 40px;
+	font-family: var(--font-family);
+	font-weight: 700;
+	font-size: 20px;
+	color: #fdfdfd;
+	background: rgba(255, 255, 255, 0.3);
+}
+
+.overlay__descr {
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 16px;
+	color: #fdfdfd;
+}
+
+.overlay__btn {
+	margin-top: auto;
+	width: 176px;
+	height: 44px;
+}
